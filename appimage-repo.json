@@ -1,0 +1,57 @@
+{
+    "name": "Default appimage-manager repo",
+    "version": "2024-09-11",
+    "url": "https://appimage.repo.61labs.com/appimage-repo.json",
+    "maintainer": "hello@marcsekz.me",
+    "format": "1",
+    "packages": {
+        "arduino-ide": {
+            "type": "github",
+            "repo": "arduino/arduino-ide",
+            "name": "Arduino IDE 2",
+            "icon": "arduino",
+            "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
+            "filename-fmt": "arduino_ide_${version-fmt}_Linux_64bit\\.AppImage"
+        },
+        "openscad": {
+            "type": "github",
+            "repo": "openscad/openscad",
+            "name": "OpenSCAD",
+            "icon": "openscad",
+            "version-fmt": "[0-9]+\\.[0-9]+",
+            "filename-fmt": "OpenSCAD-${version-fmt}-x86_64.AppImage"
+        },
+        "freecad": {
+            "type": "github",
+            "repo": "freecad/freecad-bundle",
+            "name": "FreeCAD",
+            "icon": "freecad",
+            "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
+            "filename-fmt": "FreeCAD_${version-fmt}-.*-x86_64-.*.AppImage"
+        },
+        "nrfconnect": {
+            "type": "github",
+            "repo": "NordicSemiconductor/pc-nrfconnect-launcher",
+            "name": "nRF Connect for Desktop",
+            "icon": "nrfconnect",
+            "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
+            "filename-fmt": "nrfconnect-${version-fmt}-x86_64.AppImage"
+        },
+        "cura": {
+            "type": "github",
+            "repo": "ultimaker/cura",
+            "name": "Ultimaker Cura",
+            "icon": "cura",
+            "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
+            "filename-fmt": "UltiMaker-Cura-${version-fmt}-linux-X64.AppImage"
+        },
+        "audacity": {
+            "type": "github",
+            "repo": "audacity/audacity",
+            "name": "Audacity",
+            "icon": "audacity",
+            "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
+            "filename-fmt": "audacity-linux-${version-fmt}-x64.AppImage"
+        }
+    }
+}
