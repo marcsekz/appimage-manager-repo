@@ -33,7 +33,7 @@
             "type": "github",
             "repo": "NordicSemiconductor/pc-nrfconnect-launcher",
             "name": "nRF Connect for Desktop",
-            "icon": "nrfconnect",
+            "icon": "https://www.nordicsemi.com/-/media/Images/Products/APPS/nRF-Connect_desktop.png",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
             "filename-fmt": "nrfconnect-${version-fmt}-x86_64.AppImage"
         },
@@ -52,6 +52,15 @@
             "icon": "audacity",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
             "filename-fmt": "audacity-linux-${version-fmt}-x64.AppImage"
+        },
+        "cad-assistant": {
+            "type": "other",
+            "release-url": "https://www.opencascade.com/products/cad-assistant/",
+            "download-prefix": "https://www.opencascade.com/sites/default/files/private/occt/applications/",
+            "name": "OpenCascade CAD Assistant",
+            "icon": "https://www.opencascade.com/wp-content/uploads/2020/09/menu-assistant.svg",
+            "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
+            "filename-fmt": "cad_assistant_${version-fmt}_.*_lin64.appimage"
         }
     }
 }
