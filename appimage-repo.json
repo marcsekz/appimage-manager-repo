@@ -11,7 +11,8 @@
             "name": "Arduino IDE 2",
             "icon": "arduino",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
-            "filename-fmt": "arduino_ide_${version-fmt}_Linux_64bit\\.AppImage"
+            "filename-fmt": "arduino_ide_${version-fmt}_Linux_64bit\\.AppImage",
+            "description": ""
         },
         "openscad": {
             "type": "github",
@@ -19,7 +20,8 @@
             "name": "OpenSCAD",
             "icon": "openscad",
             "version-fmt": "[0-9]+\\.[0-9]+",
-            "filename-fmt": "OpenSCAD-${version-fmt}-x86_64.AppImage"
+            "filename-fmt": "OpenSCAD-${version-fmt}-x86_64.AppImage",
+            "description": ""
         },
         "freecad": {
             "type": "github",
@@ -35,7 +37,8 @@
             "name": "nRF Connect for Desktop",
             "icon": "https://www.nordicsemi.com/-/media/Images/Products/APPS/nRF-Connect_desktop.png",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
-            "filename-fmt": "nrfconnect-${version-fmt}-x86_64.AppImage"
+            "filename-fmt": "nrfconnect-${version-fmt}-x86_64.AppImage",
+            "description": ""
         },
         "cura": {
             "type": "github",
@@ -43,7 +46,8 @@
             "name": "Ultimaker Cura",
             "icon": "cura",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
-            "filename-fmt": "UltiMaker-Cura-${version-fmt}-linux-X64.AppImage"
+            "filename-fmt": "UltiMaker-Cura-${version-fmt}-linux-X64.AppImage",
+            "description": ""
         },
         "audacity": {
             "type": "github",
@@ -51,7 +55,8 @@
             "name": "Audacity",
             "icon": "audacity",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
-            "filename-fmt": "audacity-linux-${version-fmt}-x64.AppImage"
+            "filename-fmt": "audacity-linux-${version-fmt}-x64.AppImage",
+            "description": ""
         },
         "cad-assistant": {
             "type": "other",
@@ -60,7 +65,8 @@
             "name": "OpenCascade CAD Assistant",
             "icon": "https://www.opencascade.com/wp-content/uploads/2020/09/menu-assistant.svg",
             "version-fmt": "[0-9]+\\.[0-9]+\\.[0-9]+",
-            "filename-fmt": "cad_assistant_${version-fmt}_.*_lin64.appimage"
+            "filename-fmt": "cad_assistant_${version-fmt}_.*_lin64.appimage",
+            "description": ""
         }
     }
 }
