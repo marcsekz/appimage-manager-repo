@@ -1,7 +1,7 @@
 {
     "name": "Default appimage-manager repo",
     "version": "2024-09-11",
-    "url": "https://appimage.repo.61labs.com/appimage-repo.json",
+    "url": "https://raw.githubusercontent.com/marcsekz/appimage-manager-repo/master/appimage-repo.json",
     "maintainer": "hello@marcsekz.me",
     "format": "1",
     "packages": {
